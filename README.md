@@ -23,7 +23,20 @@ Or install it yourself as:
 The Lato font is installed and accessible using the following when declaring your classes in your view templates:
 
 ```ruby
-latolight
+latohairline  # font-family: "latohairline"
+latohairline_italic  # font_family: "latohairline_italic"
+
+latolight  # font-family: "latolight"
+latolight_italic  # font-family; "latolight_italic" 
+
+latoregular  # font-family: "latoregular"
+latoregular_italic  # font-family: "latoregular_italic"
+
+latobold  # font-family: "latobold"
+latobold_italic  # font-family: "latobold_italic"
+
+latoblack  # font-family: "latoblack"
+latoblack_italic  # font_family: "latoblack_italic"
 ```
 
 ## Development
