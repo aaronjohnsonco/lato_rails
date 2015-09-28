@@ -39,10 +39,21 @@ latoblack  # font-family: "latoblack"
 latoblack_italic  # font_family: "latoblack_italic"
 ```
 
+In the app/assets/stylesheets/application.css file add the following:
+
+```ruby
+*= require 'lato'
+```
+
+or you can change your application.css file to application.scss and add the following:
+
+```ruby
+@import 'lato';
+```
 In development you will need to add the following to the config/environments/development.rb file:
 
 ```ruby
-  config.assets.precompile << /\.(?:svg|eot|woff|ttf)\z/
+config.assets.precompile << /\.(?:svg|eot|woff|ttf)\z/
 ```
 
 ## Development
